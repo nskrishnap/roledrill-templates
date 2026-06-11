@@ -1,0 +1,14 @@
+[
+  {
+    "id": "java-17-migration-backend",
+    "name": "Java 17 Migration — Backend Developers",
+    "category": "tech",
+    "tags": ["java", "java17", "migration", "backend", "jdk"],
+    "purpose": "development",
+    "author": "nskrishnap",
+    "rating": null,
+    "runs": 0,
+    "validated": true,
+    "path": "templates/tech/java-17-migration-backend.json"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "id": "your-template-id",
+  "name": "Your Template Name",
+  "category": "tech",
+  "purpose": "development",
+  "description": "Detailed scenario description — be specific about what the team should know, which tools/versions, and what judgment calls they should be able to make. 200-500 characters recommended.",
+  "targetAudience": "Who is this for",
+  "estimatedTime": "20 minutes",
+  "difficulty": "beginner | intermediate | advanced",
+  "tags": ["tag1", "tag2"],
+  "author": {
+    "name": "Your Name",
+    "github": "your-github-handle",
+    "linkedin": "your-linkedin"
+  },
+  "version": "1.0",
+  "createdAt": "2026-06-10",
+  "validated": false,
+  "validatedBy": null
+}

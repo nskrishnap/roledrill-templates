@@ -1,0 +1,20 @@
+{
+  "id": "java-17-migration-backend",
+  "name": "Java 17 Migration — Backend Developers",
+  "category": "tech",
+  "purpose": "development",
+  "description": "Assess whether backend developers are prepared for a Java 17 migration. Focus areas include sealed classes, records, pattern matching for instanceof, text blocks, removal of deprecated APIs, module system implications, and updated garbage collector behaviour. Participants should demonstrate practical judgment on migration risks, compatibility issues, and testing strategies for existing codebases.",
+  "targetAudience": "Backend developers, Java engineers",
+  "estimatedTime": "20 minutes",
+  "difficulty": "intermediate",
+  "tags": ["java", "java17", "migration", "backend", "jdk", "sealed-classes", "records"],
+  "author": {
+    "name": "Krishnaprasad Somashiandan",
+    "github": "nskrishnap",
+    "linkedin": "krishnaprasad-somashiandan"
+  },
+  "version": "1.0",
+  "createdAt": "2026-06-10",
+  "validated": true,
+  "validatedBy": "RoleDrill Team"
+}
