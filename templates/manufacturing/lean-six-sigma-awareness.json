@@ -1,0 +1,20 @@
+{
+  "id": "lean-six-sigma-awareness",
+  "name": "Lean Six Sigma Awareness — Operations Staff",
+  "category": "manufacturing",
+  "purpose": "development",
+  "description": "Assess whether operations and production staff understand core Lean Six Sigma concepts being introduced across the facility. Focus on the 8 wastes (DOWNTIME), 5S workplace organisation, value stream thinking, basic DMAIC problem-solving approach, and standard work documentation. Participants should be able to identify waste in their own work area and contribute to improvement initiatives.",
+  "targetAudience": "Production operators, team leaders, supervisors, operations staff",
+  "estimatedTime": "20 minutes",
+  "difficulty": "beginner",
+  "tags": ["lean", "six-sigma", "manufacturing", "continuous-improvement", "5s", "dmaic"],
+  "author": {
+    "name": "Krishnaprasad Somashiandan",
+    "github": "nskrishnap",
+    "linkedin": "krishnaprasad-somashiandan"
+  },
+  "version": "1.0",
+  "createdAt": "2026-06-10",
+  "validated": true,
+  "validatedBy": "RoleDrill Team"
+}

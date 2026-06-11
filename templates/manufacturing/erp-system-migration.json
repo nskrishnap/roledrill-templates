@@ -1,0 +1,20 @@
+{
+  "id": "erp-system-migration",
+  "name": "ERP System Migration Readiness — Manufacturing Operations",
+  "category": "manufacturing",
+  "purpose": "development",
+  "description": "Assess whether production planners, inventory managers, and operations staff are ready to work in a new ERP system following migration from legacy systems. Focus on work order management in the new system, inventory transaction processes, production scheduling workflows, and reporting differences. Participants should demonstrate ability to complete core daily tasks and identify when data discrepancies need escalation.",
+  "targetAudience": "Production planners, inventory managers, shop floor supervisors",
+  "estimatedTime": "25 minutes",
+  "difficulty": "intermediate",
+  "tags": ["erp", "sap", "migration", "manufacturing", "production-planning", "inventory"],
+  "author": {
+    "name": "Krishnaprasad Somashiandan",
+    "github": "nskrishnap",
+    "linkedin": "krishnaprasad-somashiandan"
+  },
+  "version": "1.0",
+  "createdAt": "2026-06-10",
+  "validated": true,
+  "validatedBy": "RoleDrill Team"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "industry-40-adoption",
+  "name": "Industry 4.0 Readiness — Shop Floor Teams",
+  "category": "manufacturing",
+  "purpose": "ai-readiness",
+  "description": "Assess whether shop floor supervisors and operators understand Industry 4.0 concepts being introduced to their facility — including IoT sensor integration, real-time production monitoring dashboards, predictive maintenance alerts, and automated quality inspection systems. Participants should demonstrate ability to interpret live data, respond to system alerts, and identify when to escalate to engineering.",
+  "targetAudience": "Shop floor supervisors, machine operators, maintenance technicians",
+  "estimatedTime": "20 minutes",
+  "difficulty": "beginner",
+  "tags": ["industry40", "iot", "manufacturing", "automation", "predictive-maintenance", "smart-factory"],
+  "author": {
+    "name": "Krishnaprasad Somashiandan",
+    "github": "nskrishnap",
+    "linkedin": "krishnaprasad-somashiandan"
+  },
+  "version": "1.0",
+  "createdAt": "2026-06-10",
+  "validated": true,
+  "validatedBy": "RoleDrill Team"
+}

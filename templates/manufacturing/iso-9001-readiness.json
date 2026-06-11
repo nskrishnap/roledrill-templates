@@ -1,0 +1,20 @@
+{
+  "id": "iso-9001-readiness",
+  "name": "ISO 9001:2015 Quality Management Readiness",
+  "category": "manufacturing",
+  "purpose": "simulation",
+  "description": "Assess whether quality and operations staff understand ISO 9001:2015 requirements before an audit or certification renewal. Focus areas include process approach, risk-based thinking, documented information requirements, internal audit procedures, corrective action processes, and management review obligations. Participants should demonstrate practical judgment on non-conformance handling and continual improvement cycles.",
+  "targetAudience": "Quality managers, operations supervisors, production staff",
+  "estimatedTime": "20 minutes",
+  "difficulty": "intermediate",
+  "tags": ["iso9001", "quality", "manufacturing", "audit", "compliance", "qms"],
+  "author": {
+    "name": "Krishnaprasad Somashiandan",
+    "github": "nskrishnap",
+    "linkedin": "krishnaprasad-somashiandan"
+  },
+  "version": "1.0",
+  "createdAt": "2026-06-10",
+  "validated": true,
+  "validatedBy": "RoleDrill Team"
+}

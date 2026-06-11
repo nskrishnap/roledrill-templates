@@ -1,0 +1,20 @@
+{
+  "id": "lockout-tagout-safety",
+  "name": "Lockout/Tagout (LOTO) Procedure Readiness",
+  "category": "manufacturing",
+  "purpose": "simulation",
+  "description": "Assess whether maintenance and production staff understand and can correctly apply lockout/tagout procedures before servicing or maintaining equipment with hazardous energy sources. Focus on identifying energy isolation points, correct sequence of LOTO steps, verification procedures, group lockout protocols, and handling of unexpected re-energisation scenarios. OSHA 29 CFR 1910.147 compliance focused.",
+  "targetAudience": "Maintenance technicians, machine operators, production supervisors",
+  "estimatedTime": "15 minutes",
+  "difficulty": "intermediate",
+  "tags": ["loto", "lockout-tagout", "safety", "osha", "manufacturing", "hazardous-energy"],
+  "author": {
+    "name": "Krishnaprasad Somashiandan",
+    "github": "nskrishnap",
+    "linkedin": "krishnaprasad-somashiandan"
+  },
+  "version": "1.0",
+  "createdAt": "2026-06-10",
+  "validated": true,
+  "validatedBy": "RoleDrill Team"
+}
