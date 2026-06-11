@@ -1,52 +1,54 @@
-# RoleDrill Template Library
+# RoleDrill — Ops Tools
 
-Community-curated workforce readiness drill templates — written by SMEs, validated by AI, powered by [RoleDrill Enterprise](https://enterprise.roledrill.com).
+## Setup
+```bash
+cd stackready
+pip install boto3 --break-system-packages
+aws configure  # ensure us-west-2 is set
+```
 
-## What is this?
+## Dashboard
+```bash
+python3 ops/dashboard.py
+```
+Shows:
+- Active users today
+- Questions answered
+- JD bundles created
+- Top users (flags suspicious ones)
+- Banned users list
+- All-time stats
 
-This is the open template library for RoleDrill — a Pay-Per-Drill SaaS platform that turns SME knowledge into scenario-based assessments for teams.
+## Ban a User
+```bash
+# Ban
+python3 ops/ban_user.py ban <user_id> "reason"
 
-**SMEs write the spec. RoleDrill brings the essence to your team.**
+# Example
+python3 ops/ban_user.py ban b8e1b390-8011-7011-de4c "Scraping questions"
 
-## How it works
+# Unban
+python3 ops/ban_user.py unban <user_id>
 
-1. An SME contributes a template (scenario description + metadata)
-2. A GitHub Action validates it using Claude — ensuring it generates high-quality, specific questions
-3. After peer review and merge, it's available to all RoleDrill users
-4. Every drill run using your template builds benchmark data you can see
+# List all banned
+python3 ops/ban_user.py list
+```
+Effect is **immediate** — next API request returns 403.
+Get user_id (Cognito sub) from dashboard output.
 
-## Contributing
+## Limits (enforced server-side)
+| Action           | Free limit  | Env var                  |
+|------------------|-------------|--------------------------|
+| Questions/day    | 10          | DAILY_QUESTION_LIMIT     |
+| JD bundles/day   | 3           | DAILY_JD_LIMIT           |
+| JD max chars     | 3000        | (hardcoded in handler)   |
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
+## Suspicious Activity Flags
+Dashboard auto-flags:
+- User hitting question limit repeatedly (≥10/day)
+- User creating ≥5 JD bundles in one day
+- Same IP hitting rate limit (API Gateway logs)
 
-**Quick start:**
-1. Fork this repo
-2. Copy `templates/_template.json` to the right category folder
-3. Fill in your scenario description
-4. Submit a PR
-
-## Template categories
-
-| Category | Templates |
-|----------|-----------|
-| tech | Java, Spring Boot, Python, Cloud-native |
-| cloud | AWS, Azure, GCP, migrations |
-| security | Phishing, secure coding, incident response |
-| compliance | GDPR, HIPAA, SOX, PCI-DSS |
-| healthcare | Clinical protocols, EHR systems |
-| sales | Product knowledge, objection handling |
-
-## Founding contributors
-
-First 20 contributors receive:
-- Founding Contributor badge on their profile
-- Early access to benchmark data from their templates
-- Credit on every drill run using their template
-
-## Platform
-
-Templates power [enterprise.roledrill.com](https://enterprise.roledrill.com)
-
-## License
-
-MIT — templates are freely available. The RoleDrill platform is separate.
+## CloudWatch Alarms (already set up)
+- `stackready-prod-bedrock-spike` — >200 invocations/5min
+- `stackready-prod-question-errors` — >5 errors/min
