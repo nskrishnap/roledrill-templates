@@ -1,14 +1,110 @@
 [
   {
     "id": "java-17-migration-backend",
-    "name": "Java 17 Migration — Backend Developers",
+    "name": "Java 17 Migration \u2014 Backend Developers",
     "category": "tech",
-    "tags": ["java", "java17", "migration", "backend", "jdk"],
+    "tags": [
+      "java",
+      "java17",
+      "migration",
+      "backend",
+      "jdk"
+    ],
     "purpose": "development",
     "author": "nskrishnap",
     "rating": null,
     "runs": 0,
     "validated": true,
     "path": "templates/tech/java-17-migration-backend.json"
+  },
+  {
+    "id": "iso-9001-readiness",
+    "name": "ISO 9001:2015 Quality Management Readiness",
+    "category": "manufacturing",
+    "tags": [
+      "iso9001",
+      "quality",
+      "manufacturing",
+      "audit",
+      "compliance"
+    ],
+    "purpose": "simulation",
+    "author": "nskrishnap",
+    "rating": null,
+    "runs": 0,
+    "validated": true,
+    "path": "templates/manufacturing/iso-9001-readiness.json"
+  },
+  {
+    "id": "industry-40-adoption",
+    "name": "Industry 4.0 Readiness \u2014 Shop Floor Teams",
+    "category": "manufacturing",
+    "tags": [
+      "industry40",
+      "iot",
+      "manufacturing",
+      "automation",
+      "smart-factory"
+    ],
+    "purpose": "ai-readiness",
+    "author": "nskrishnap",
+    "rating": null,
+    "runs": 0,
+    "validated": true,
+    "path": "templates/manufacturing/industry-40-adoption.json"
+  },
+  {
+    "id": "lockout-tagout-safety",
+    "name": "Lockout/Tagout (LOTO) Procedure Readiness",
+    "category": "manufacturing",
+    "tags": [
+      "loto",
+      "safety",
+      "osha",
+      "manufacturing",
+      "hazardous-energy"
+    ],
+    "purpose": "simulation",
+    "author": "nskrishnap",
+    "rating": null,
+    "runs": 0,
+    "validated": true,
+    "path": "templates/manufacturing/lockout-tagout-safety.json"
+  },
+  {
+    "id": "erp-system-migration",
+    "name": "ERP System Migration Readiness \u2014 Manufacturing Operations",
+    "category": "manufacturing",
+    "tags": [
+      "erp",
+      "sap",
+      "migration",
+      "manufacturing",
+      "production-planning"
+    ],
+    "purpose": "development",
+    "author": "nskrishnap",
+    "rating": null,
+    "runs": 0,
+    "validated": true,
+    "path": "templates/manufacturing/erp-system-migration.json"
+  },
+  {
+    "id": "lean-six-sigma-awareness",
+    "name": "Lean Six Sigma Awareness \u2014 Operations Staff",
+    "category": "manufacturing",
+    "tags": [
+      "lean",
+      "six-sigma",
+      "manufacturing",
+      "continuous-improvement",
+      "5s"
+    ],
+    "purpose": "development",
+    "author": "nskrishnap",
+    "rating": null,
+    "runs": 0,
+    "validated": true,
+    "path": "templates/manufacturing/lean-six-sigma-awareness.json"
   }
 ]
